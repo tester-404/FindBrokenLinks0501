@@ -24,8 +24,7 @@ public class BrokenLinks {
     public void start(){
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-     //   driver.get("https://www.linkedin.com");
-        driver.get("https://paperpaper.ru/");
+        driver.get("https://www.linkedin.com");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
        }
